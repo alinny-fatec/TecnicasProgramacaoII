@@ -1,0 +1,10 @@
+Prototype02py
+
+- Desafio: desenvolva o codigo da pizzaria (prototype02.js) em Python; 
+- Tempo: 10min
+- Pode fazer em Dupla.
+--------------------------------
+DESAFIO - 20/03 - DWIII:
+
+Preparar a Pizzaria para comunicar (atraves de variaveis e objetos no
+HTML), com as informações.
