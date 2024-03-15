@@ -1,0 +1,17 @@
+DESAFIO DA PIZZARIA:
+
+- Em dupla (2 pessoas):
+
+- Desenvolver um programa com o uso do padrão de projeto GoF - Criacional - Builder, em relação a uma pizzaria no qual deve conter:
+
+	- Tamanho (Grande, Padrão e Pequeno);
+	- Massa (Tradicional, Integral e Fitness);
+	- Molho (Molho Tomate, Molho Temperado e Molho Ervas);
+	- Proteina (Calabrasa, Frango, Presunto, Atum);
+	- Queijos (Mussarela, Catupiry, Cheddar);
+	- Complemento (Azeitona, Oregano, Tomate, Cebola, Bacon);
+
+- Montar o objeto da pizza com Builder;
+- Gerar um modelo default para "limpar" o pedido antes;
+- O usuario pode personalizar e no final deve mostrar como ficou a pizza;
+
