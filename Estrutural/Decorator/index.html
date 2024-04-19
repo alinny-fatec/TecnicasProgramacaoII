@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria PHP</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        h1, h2{
+            text-align: left;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button{
+            margin-top: 20px;
+        }
+
+        #total-pedido{
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Central de Alunos</h1>
+  
+    <h1>Monte sua matrícula: </h1>
+  
+    <h2>Selecione o Curso:</h2>
+    <label>
+        <input type="radio" name="curso" value="Desenvolvimento de Software" data-curso="Desenvolvimento de Software"> Desenvolvimento de Software
+    </label>
+    <label>
+        <input type="radio" name="curso" value="Cosméticos" data-curso="Cosméticos"> Cosméticos
+    </label>
+    <label>
+        <input type="radio" name="curso" value="Logística" data-curso="Logística">  Logística
+    </label>
+    
+
+    <h2>Selecione o Período:</h2>
+    <label>
+        <input type="radio" name="periodo" value="Manha" data-periodo="Manha">  Manhã
+    </label>
+    <label>
+        <input type="radio" name="periodo" value="Tarde" data-periodo="Tarde">  Tarde 
+    </label>
+    <label>
+        <input type="radio" name="periodo" value="Noite" data-periodo="Noite">  Noite
+    </label>
+
+    <h2>Selecione o Tipo de Borda da Pizza:</h2>
+    <label>
+        <input type="radio" name="borda" value="Tradicional" data-borda="Tradicional">  Tradicional
+    </label>
+    <label>
+        <input type="radio" name="borda" value="Recheada" data-borda="Recheada">  Recheada
+    </label>
+
+    <h2>Selecione os Ingredientes Extras:</h2>
+    <label>
+        <input type="checkbox" name="queijo-extra" data-extra="queijo-extra">  Queijo Extra +R$2,00
+    </label>
+    <label>
+        <input type="checkbox" name="bacon-extra" data-extra="bacon-extra">  Bacon Extra +R$3,00
+    </label>
+    <label>
+        <input type="checkbox" name="pepperoni-extra" data-extra="pepperoni-extra">  Pepperoni Extra +R$4,00
+    </label>
+
+    <button onclick="montarPizza()">Montar Pizza</button>
+
+    <h2>Total do Pedido:</h2>
+    <p id="total-pedido">R$ 0,00</p>
+
+    <script src="Decorator01.js"></script>
+
+</body>
+</htm/l>
